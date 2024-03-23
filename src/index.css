@@ -1,0 +1,140 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+:root
+{
+    --main-color:#0aad0a;
+    --light-color:#f0f3f2;
+    --shadow: rgba(145,158,171,.2) 0px 2px 4px -1px,rgba(145,158,171,.14) 0px 4px 5px 0px,rgba(145,158,171,.12) 0px 1px 10px 0px;
+    --font-family:'Encode Sans Expanded', sans-serif;
+    --rating-color:#ffc908;
+}
+html {
+    scroll-behavior: smooth;
+    
+}
+body{
+    font-family: var(--font-family) !important;
+}
+.rating-color
+{
+    color: var(--rating-color);
+}
+
+.network {
+    background: var(--main-color);
+    color: #fff;
+    position: fixed;
+    top: 60px;
+    left: 15px;
+    z-index: 9999;
+    box-shadow: var(--shadow);
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.cursor-pointer
+{
+    cursor: pointer;
+}
+a , a:hover{
+    color: black !important;
+    text-decoration: none !important;
+}
+.product:hover
+{
+    box-shadow: var(--shadow);
+    border: solid 1px var(--main-color);
+}
+.product .btn 
+{
+    transition: transform 1s , opacity 1s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+.product:hover .btn 
+{
+    opacity: 1;
+    transform: translateY(0%);
+
+}
+.brand  {
+    top: 0;
+    right: 100%;
+    margin-top: 10px;
+    mix-blend-mode: darken;
+    transition: all 400ms;
+}
+.product:hover .brand 
+{
+    right: 5%;
+   
+
+}
+.brand img {
+   width: 100px;
+   border-radius: 20px;
+   opacity: 0;
+   transition: all 400ms;
+}
+.product:hover .brand img
+{
+    opacity: 1;
+   
+
+}
+.maino {
+    transition: all 600ms;
+    background-color: #d9d9d9;
+   
+    margin-top: 20px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+.mixo {
+    mix-blend-mode: darken;
+}
+
+.banner {
+    background: rgb(34,193,195);
+    background: linear-gradient(50deg, #096bbb 0%, rgb(0, 0, 0) 100%);
+    height: 250px;
+   
+    position: relative;
+
+}
+
+
+.main-image {
+    width: 150px;
+    height: 150px;
+    background-image: url(https://i.pinimg.com/564x/95/14/a2/9514a2106bdf506dc2ed2047ae4ba908.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: -25%;
+    left: 50%;
+    border-radius: 50%;
+    box-shadow: var(--shadow);
+    transform: translate(-50% );
+}
+
+.maino:hover {
+    background-color: #76d1f5;
+}
+
+.font-sm
+{
+    font-size: 14px;
+}
+.text-main
+{
+    color: var(--main-color);
+}
+.bg-main
+{
+    background-color: var(--main-color) !important;
+}
+.bg-main-light 
+{
+    background-color: var(--light-color) !important;
+}

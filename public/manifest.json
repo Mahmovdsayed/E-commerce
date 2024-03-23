@@ -1,0 +1,32 @@
+{
+    "theme_color": "#191919",
+    "background_color": "#191919",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "E-commerce app",
+    "short_name": "E-commerce",
+    "description": "Welcome to our cutting-edge E-commerce platform, where convenience meets quality at your fingertips. With our user-friendly app, shopping has never been easier or more enjoyable.  Discover a vast array of products ranging from electronics to fashion, home decor to fitness gear, all curated to cater to your diverse needs and preferences. Whether you're searching for the latest gadgets, trendy apparel, or unique gifts, we've got you covered.  Our intuitive interface provides seamless navigation, allowing you to browse through categories effortlessly. Personalized recommendations based on your interests and purchase history ensure that you never miss out on the perfect find.  Take advantage of secure payment options for a hassle-free checkout experience. With multiple payment methods available, including credit/debit cards, digital wallets, and even cash on delivery, shopping with us is safe and convenient.  Stay updated with real-time order tracking, ensuring you're always in the loop from purchase to delivery. Our reliable delivery partners ensure prompt and efficient service, getting your purchases to your doorstep in no time.  Join our thriving community of savvy shoppers and experience the convenience of online shopping like never before. Download our app today and embark on a journey of seamless shopping, endless possibilities, and unparalleled convenience.",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
